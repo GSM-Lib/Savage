@@ -1,3 +1,3 @@
 function solution(arr) {
-  return arr.reduce((old, newData) => (old += newData / arr.length), 0);
+  return arr.reduce((old, newData) => (old += newData), 0) / arr.length;
 }
