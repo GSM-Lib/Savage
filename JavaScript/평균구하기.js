@@ -1,7 +1,3 @@
 function solution(arr) {
-  let result = 0;
-  arr.forEach((element) => {
-    result += element;
-  });
-  return result / arr.length;
+  return arr.reduce((old, newData) => (old += newData), 0) / arr.length;
 }
