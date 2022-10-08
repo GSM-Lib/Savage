@@ -1,0 +1,1 @@
+fun solution(n: Int) = "수박".repeat(n).substring(0 until n)
