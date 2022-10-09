@@ -1,0 +1,1 @@
+fun solution(num: Int): String = if(num.and(1) == 1) "Odd" else "Even"
