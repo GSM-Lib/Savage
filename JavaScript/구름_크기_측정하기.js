@@ -2,9 +2,9 @@
 const readline = require("readline");
 
 (async () => {
-  let rl = readline.createInterface({ input: process.stdin });
+  let inputData = readline.createInterface({ input: process.stdin });
 
-  for await (const line of rl) {
+  for await (const line of inputData) {
     var result = line.split(" ").map(Number);
     console.log(result[0] * result[1]);
     rl.close();
