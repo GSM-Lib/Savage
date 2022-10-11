@@ -5,7 +5,7 @@ const readline = require("readline");
   let inputData = readline.createInterface({ input: process.stdin });
 
   for await (const line of inputData) {
-    var result = line.split(" ").map(Number);
+    let result = line.split(" ").map(Number);
     console.log(result[0] * result[1]);
     rl.close();
   }
