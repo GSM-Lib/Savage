@@ -10,5 +10,3 @@ function solution(k, m, score) {
   }
   return answer;
 }
-
-console.log(solution(3, 4, [1, 2, 3, 1, 2, 3, 1]));
