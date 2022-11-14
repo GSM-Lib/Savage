@@ -9,4 +9,3 @@ function solution(array) {
     ? -1
     : setArr[cnt.indexOf(maxCnt)];
 }
-console.log(solution([1]));
