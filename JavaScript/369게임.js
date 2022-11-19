@@ -1,3 +1,31 @@
-function solution(order) {
-  return order.toString().split("").filter(result =>    result == "3" || result == "6" || result == "9").length;
+function solution(letter) {
+  let morse = {
+    ".-": "a",
+    "-...": "b",
+    "-.-.": "c",
+    "-..": "d",
+    ".": "e",
+    "..-.": "f",
+    "--.": "g",
+    "....": "h",
+    "..": "i",
+    ".---": "j",
+    "-.-": "k",
+    ".-..": "l",
+    "--": "m",
+    "-.": "n",
+    "---": "o",
+    ".--.": "p",
+    "--.-": "q",
+    ".-.": "r",
+    "...": "s",
+    "-": "t",
+    "..-": "u",
+    "...-": "v",
+    ".--": "w",
+    "-..-": "x",
+    "-.--": "y",
+    "--..": "z",
+  };
+  return answer;
 }
