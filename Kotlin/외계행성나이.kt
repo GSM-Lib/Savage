@@ -1,0 +1,1 @@
+fun solution(age: Int): String = age.toString().toList().map { (it.toInt()+49).toChar() }.joinToString("")
